@@ -1,0 +1,463 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Inception",
+            "year": 2010,
+            "image": "https://example.com/inception.jpg",
+            "actors": [
+                {
+                    "id": 101,
+                    "role_id": 5,
+                    "join_date": "2009-05-15"
+                },
+                {
+                    "id": 102,
+                    "role_id": 3,
+                    "join_date": "2009-06-20"
+                },
+                {
+                    "id": 103,
+                    "role_id": 3,
+                    "join_date": "2009-07-10"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "The Dark Knight",
+            "year": 2008,
+            "image": "https://example.com/darkknight.jpg",
+            "actors": [
+                {
+                    "id": 104,
+                    "role_id": 5,
+                    "join_date": "2007-04-10"
+                },
+                {
+                    "id": 105,
+                    "role_id": 3,
+                    "join_date": "2007-06-15"
+                },
+                {
+                    "id": 106,
+                    "role_id": 3,
+                    "join_date": "2007-07-15"
+                },
+                {
+                    "id": 107,
+                    "role_id": 3,
+                    "join_date": "2007-07-20"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Interstellar",
+            "year": 2014,
+            "image": "https://example.com/interstellar.jpg",
+            "actors": [
+                {
+                    "id": 108,
+                    "role_id": 5,
+                    "join_date": "2013-02-28"
+                },
+                {
+                    "id": 109,
+                    "role_id": 3,
+                    "join_date": "2013-03-15"
+                },
+                {
+                    "id": 110,
+                    "role_id": 3,
+                    "join_date": "2013-04-10"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Fight Club",
+            "year": 1999,
+            "image": "https://example.com/fightclub.jpg",
+            "actors": [
+                {
+                    "id": 114,
+                    "role_id": 5,
+                    "join_date": "1998-03-01"
+                },
+                {
+                    "id": 115,
+                    "role_id": 3,
+                    "join_date": "1998-04-10"
+                },
+                {
+                    "id": 116,
+                    "role_id": 3,
+                    "join_date": "1998-05-20"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "The Godfather",
+            "year": 1972,
+            "image": "https://example.com/godfather.jpg",
+            "actors": [
+                {
+                    "id": 120,
+                    "role_id": 5,
+                    "join_date": "1971-01-20"
+                },
+                {
+                    "id": 121,
+                    "role_id": 3,
+                    "join_date": "1971-03-15"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "The Shawshank Redemption",
+            "year": 1994,
+            "image": "https://example.com/shawshank.jpg",
+            "actors": [
+                {
+                    "id": 125,
+                    "role_id": 5,
+                    "join_date": "1993-06-10"
+                },
+                {
+                    "id": 126,
+                    "role_id": 3,
+                    "join_date": "1993-07-15"
+                },
+                {
+                    "id": 127,
+                    "role_id": 3,
+                    "join_date": "1993-08-20"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "The Lord of the Rings",
+            "year": 2001,
+            "image": "https://example.com/lotr.jpg",
+            "actors": [
+                {
+                    "id": 128,
+                    "role_id": 5,
+                    "join_date": "2000-08-12"
+                },
+                {
+                    "id": 129,
+                    "role_id": 3,
+                    "join_date": "2000-09-15"
+                },
+                {
+                    "id": 130,
+                    "role_id": 3,
+                    "join_date": "2000-10-05"
+                },
+                {
+                    "id": 131,
+                    "role_id": 3,
+                    "join_date": "2000-11-12"
+                },
+                {
+                    "id": 132,
+                    "role_id": 3,
+                    "join_date": "2000-12-20"
+                }
+            ]
+        }
+    ],
+    "actors": [
+        {
+            "id": 101,
+            "name": "Leonardo DiCaprio",
+            "image": "https://example.com/leonardo.jpg",
+            "age": 46,
+            "movies": [
+                {
+                    "id": 1,
+                    "role_id": 5
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "name": "Joseph Gordon-Levitt",
+            "image": "https://example.com/joseph.jpg",
+            "age": 40,
+            "role": "Recurring character",
+            "movies": [
+                {
+                    "id": 1,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 103,
+            "name": "Elliot Page",
+            "image": "https://example.com/elliot.jpg",
+            "age": 34,
+            "movies": [
+                {
+                    "id": 1,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 104,
+            "name": "Christian Bale",
+            "image": "https://example.com/christian.jpg",
+            "age": 47,
+            "movies": [
+                {
+                    "id": 2,
+                    "role_id": 5
+                }
+            ]
+        },
+        {
+            "id": 105,
+            "name": "Heath Ledger",
+            "image": "https://example.com/heath.jpg",
+            "age": 28,
+            "movies": [
+                {
+                    "id": 2,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 106,
+            "name": "Michael Caine",
+            "image": "https://example.com/michael.jpg",
+            "age": 88,
+            "join_date": "2007-06-15",
+            "role": "Recurring character",
+            "movies": [
+                {
+                    "id": 2,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 107,
+            "name": "Gary Oldman",
+            "image": "https://example.com/gary.jpg",
+            "age": 63,
+            "movies": [
+                {
+                    "id": 2,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 108,
+            "name": "Matthew McConaughey",
+            "image": "https://example.com/matthew.jpg",
+            "age": 51,
+            "movies": [
+                {
+                    "id": 3,
+                    "role_id": 5
+                }
+            ]
+        },
+        {
+            "id": 109,
+            "name": "Anne Hathaway",
+            "image": "https://example.com/anne.jpg",
+            "age": 38,
+            "movies": [
+                {
+                    "id": 3,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 110,
+            "name": "Jessica Chastain",
+            "image": "https://example.com/jessica.jpg",
+            "age": 44,
+            "movies": [
+                {
+                    "id": 3,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 114,
+            "name": "Brad Pitt",
+            "image": "https://example.com/brad.jpg",
+            "age": 57,
+            "movies": [
+                {
+                    "id": 5,
+                    "role_id": 5
+                }
+            ]
+        },
+        {
+            "id": 115,
+            "name": "Edward Norton",
+            "image": "https://example.com/edward.jpg",
+            "age": 51,
+            "movies": [
+                {
+                    "id": 5,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 116,
+            "name": "Helena Bonham Carter",
+            "image": "https://example.com/helena.jpg",
+            "age": 55,
+            "movies": [
+                {
+                    "id": 5,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 120,
+            "name": "Marlon Brando",
+            "image": "https://example.com/marlon.jpg",
+            "age": 47,
+            "movies": [
+                {
+                    "id": 7,
+                    "role_id": 5
+                }
+            ]
+        },
+        {
+            "id": 121,
+            "name": "Al Pacino",
+            "image": "https://example.com/al.jpg",
+            "age": 81,
+            "movies": [
+                {
+                    "id": 7,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 125,
+            "name": "Tim Robbins",
+            "image": "https://example.com/tim.jpg",
+            "age": 62,
+            "movies": [
+                {
+                    "id": 9,
+                    "role_id": 5
+                }
+            ]
+        },
+        {
+            "id": 126,
+            "name": "Morgan Freeman",
+            "image": "https://example.com/morgan.jpg",
+            "age": 84,
+            "movies": [
+                {
+                    "id": 9,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 127,
+            "name": "Bob Gunton",
+            "image": "https://example.com/bob.jpg",
+            "age": 76,
+            "movies": [
+                {
+                    "id": 9,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 128,
+            "name": "Elijah Wood",
+            "image": "https://example.com/elijah.jpg",
+            "age": 40,
+            "movies": [
+                {
+                    "id": 10,
+                    "role_id": 5
+                }
+            ]
+        },
+        {
+            "id": 129,
+            "name": "Ian McKellen",
+            "image": "https://example.com/ian.jpg",
+            "age": 81,
+            "movies": [
+                {
+                    "id": 10,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 130,
+            "name": "Viggo Mortensen",
+            "image": "https://example.com/viggo.jpg",
+            "age": 62,
+            "movies": [
+                {
+                    "id": 10,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 131,
+            "name": "Sean Astin",
+            "image": "https://example.com/sean.jpg",
+            "age": 50,
+            "movies": [
+                {
+                    "id": 10,
+                    "role_id": 3
+                }
+            ]
+        },
+        {
+            "id": 132,
+            "name": "Orlando Bloom",
+            "image": "https://example.com/orlando.jpg",
+            "age": 44,
+            "movies": [
+                {
+                    "id": 10,
+                    "role_id": 3
+                }
+            ]
+        }
+    ],
+    "roles": {
+        "1": "Background role",
+        "2": "Cameo",
+        "3": "Recurring character",
+        "4": "Side character",
+        "5": "Series regular"
+    }
+}
